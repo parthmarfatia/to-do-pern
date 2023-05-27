@@ -1,11 +1,14 @@
+//Components
+import InputTodo from "./components/InputTodo";
 
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
-   <div>Its working</div>
-  )
+    <div className="container">
+      <InputTodo />
+    </div>
+  );
 }
 
-export default App
+export default App;
